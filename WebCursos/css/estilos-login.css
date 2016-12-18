@@ -1,0 +1,67 @@
+body {
+	background: #E9E4D1;
+}
+
+fieldset{
+    border: .1em solid #F60;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+form {
+	margin-left: 50px;
+	margin-right: 40px;
+}
+
+form a {
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+legend{
+    color: #B97230;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+	border-radius: 0.25em;
+	padding: 0.25em;
+}
+
+input[type="text"], input[type="password"] {
+  	margin-bottom: 0.5em;
+    	width: 95%;
+}
+
+input[type="button"], input[type="submit"]{
+	background: #1F74A4;
+	border-radius: 0.30em;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 1.25em;
+}
+
+#formulario {
+	background: #FFF;
+	border-radius: 0.5em;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 15%;
+}
+
+.texto1 {
+	color: #DD0101;
+}
+
+.texto2{
+	color: #357B48;
+}
+
+@media(max-width: 1080px) {
+	#formulario {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
