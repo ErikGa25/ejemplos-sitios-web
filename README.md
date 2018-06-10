@@ -2,6 +2,6 @@
 
 Aquí encontraras ejemplos de sitios web estaticos.
 
-![Texto] (https://github.com/Erik21-Unam/ejemplos-sitios-web/blob/master/Blog/img/screenshot.PNG)
+![alt text] (https://github.com/Erik21-Unam/ejemplos-sitios-web/blob/master/Blog/img/screenshot.PNG)
 
-![Texto] (https://github.com/Erik21-Unam/ejemplos-sitios-web/blob/master/WebCursos/img/screenshot.PNG)
+![alt text] (https://github.com/Erik21-Unam/ejemplos-sitios-web/blob/master/WebCursos/img/screenshot.PNG)
