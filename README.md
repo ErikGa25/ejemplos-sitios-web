@@ -2,4 +2,4 @@
 
 Aquí encontraras ejemplos de Sitios Web.
 
-En la carpeta de screenshot pueder ver imagenes de los ejemplos.
+En la carpeta de ***screenshot*** pueder ver imagenes de los ejemplos.
