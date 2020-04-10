@@ -26,27 +26,68 @@
             </nav>
         </header>
 
-        <div class="container">
+        <div class="container principal-container">
             <div class="row">
-                <div class="col s8">8</div>
-                <div class="col s4">4</div>
-            </div>    
+                <div class="col s12">
+                    <div class="video-container responsive-video">
+                        <iframe src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle red">play_arrow</i>
+                            <span class="title">Title</span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                            </p>
+                            <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col s9">
+                    <h4>Descripción</h4>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                </div>
+
+                <div class="col s3">
+                    <h5 class="sociales">Redes Sociales</h5>
+                    <br>
+                    <p class="sociales"><strong>Twitter</strong></p>
+                    <p class="sociales"><a href="https://twitter.com/intent/tweet?screen_name=TwitterDev&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+                    <p class="sociales"><strong>Facebook</strong></p>
+                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="200px" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+                </div>
+            </div>
         </div>
 
         <footer class="page-footer">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
-                        <h5 class="white-text">Footer Content</h5>
-                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                        <h5 class="white-text">Contenido</h5>
+                        <p class="grey-text text-lighten-4">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
                     </div>
                 </div>
             </div>
 
             <div class="footer-copyright">
-                <div class="container"><small>© 2020 Copyright Text</small></div>
+                <div class="container"><small>© 2020 Copyright</small></div>
             </div>
         </footer>
+
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script>
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

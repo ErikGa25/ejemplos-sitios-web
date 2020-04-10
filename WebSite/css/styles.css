@@ -1,5 +1,19 @@
+nav, .page-footer {
+    background-color: #787979;
+}
+.principal-container {
+    margin: 5vh auto;
+}
+
+.row {
+    text-align: justify;
+}
+
+.sociales {
+    text-align: center;
+}
+
 footer {
-    position:fixed;
     left:0px;
     bottom:0px;
     width:100%;
