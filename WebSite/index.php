@@ -13,18 +13,7 @@
     </head>
 
     <body>
-        <header>
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">Logo</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Inicio</a></li>
-                        <li><a href="badges.html">Documentos</a></li>
-                        <li><a href="collapsible.html">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <?php include('menu.php'); ?>
 
         <div class="container principal-container">
             <div class="row">
@@ -71,23 +60,10 @@
             </div>
         </div>
 
-        <footer class="page-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col l6 s12">
-                        <h5 class="white-text">Contenido</h5>
-                        <p class="grey-text text-lighten-4">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-copyright">
-                <div class="container"><small>© 2020 Copyright</small></div>
-            </div>
-        </footer>
+        <?php include('footer.php'); ?>
 
         <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script>
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
