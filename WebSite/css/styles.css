@@ -2,7 +2,8 @@ nav, .page-footer {
     background-color: #787979;
 }
 .principal-container {
-    margin: 5vh auto;
+    margin: 6vh auto;
+    min-height: 70vh;
 }
 
 .row {
@@ -11,6 +12,14 @@ nav, .page-footer {
 
 .sociales {
     text-align: center;
+}
+
+#send-button {
+    text-align: center;
+}
+
+#notificacion {
+    color: red;
 }
 
 footer {
