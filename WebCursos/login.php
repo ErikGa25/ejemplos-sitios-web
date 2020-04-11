@@ -11,27 +11,25 @@
 	</head>
 
 	<body>
-		<section id="contenido">
-			<section id="formulario">
-				<form action="" name="form_login" method="POST" enctype="">
-				<h3>CURSOS INFORMATICOS</h3>
-					<fieldset>
-						<legend>Ingrese los siguientes datos</legend>	
+		<section id="formulario">
+			<form action="" name="form_login" method="POST" enctype="">
+			<h3>CURSOS INFORMATICOS</h3>
+				<fieldset>
+					<legend>Ingrese los siguientes datos</legend>	
 
-						<label for="correo">Correo:</label>
-						<input type="text" name="txtCorreo" id="correo" />
+					<label for="correo">Correo:</label>
+					<input type="text" name="txtCorreo" id="correo" />
 
-						<label for="pass">Contraseña:</label>
-						<input type="password" name="txtPassword" id="pass" />
+					<label for="pass">Contraseña:</label>
+					<input type="password" name="txtPassword" id="pass" />
 
-						<input type="button" name="btnEntrar" value="Entrar">
-					</fieldset>
-					<br/>
-					<a href="index.php" class="texto1">Regresar</a>&nbsp;&nbsp;&nbsp;
-					<a href="registro.php" class="texto2">Registrarse</a>
-				</form>
+					<input type="button" name="btnEntrar" value="Entrar">
+				</fieldset>
 				<br/>
-			</section>
+				<a href="index.php" class="texto1">Regresar</a>&nbsp;&nbsp;&nbsp;
+				<a href="registro.php" class="texto2">Registrarse</a>
+			</form>
+			<br/>
 		</section>
 	</body>
 </html>

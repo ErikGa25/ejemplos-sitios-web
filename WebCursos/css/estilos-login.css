@@ -2,6 +2,14 @@ body {
 	background: #E9E4D1;
 }
 
+#formulario {
+	
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
 fieldset{
     border: .1em solid #F60;
     border-radius: 0.5em;
@@ -9,8 +17,7 @@ fieldset{
 }
 
 form {
-	margin-left: 50px;
-	margin-right: 40px;
+	width: 60%;
 }
 
 form a {
@@ -42,14 +49,6 @@ input[type="button"], input[type="submit"]{
 	font-size: 1.25em;
 }
 
-#formulario {
-	background: #FFF;
-	border-radius: 0.5em;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 15%;
-}
-
 .texto1 {
 	color: #DD0101;
 }
@@ -57,11 +56,3 @@ input[type="button"], input[type="submit"]{
 .texto2{
 	color: #357B48;
 }
-
-@media(max-width: 1080px) {
-	#formulario {
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-}
-
