@@ -1,5 +1,5 @@
-## HTML5, CSS3, JS, Bootstrap, Materialize
+## Instrucciones
 
-Aquí encontraras ejemplos de Sitios Web.
+- Se debe tener un servidor local para probarlos.
 
 En la carpeta de ***screenshot*** pueder ver imagenes de los ejemplos.
