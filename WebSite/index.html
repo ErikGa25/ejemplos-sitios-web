@@ -5,9 +5,9 @@
 	    <meta name="description" content="">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Web Site</title>
-        <!--Import Google Icon Font-->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
@@ -83,7 +83,7 @@
             </div>
 
             <div class="footer-copyright">
-                <div class="container"><small>© 2020 Copyright</small></div>
+                <div class="container"><small>© <span id="fecha"></span> Copyright</small></div>
             </div>
         </footer>
 
@@ -93,5 +93,9 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            var fecha = new Date();
+            $('#fecha').text(fecha.getFullYear());
+        </script>
     </body>
 </html>
