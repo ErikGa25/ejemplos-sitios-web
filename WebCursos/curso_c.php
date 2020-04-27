@@ -5,6 +5,8 @@
 		<meta name="description" content="Sitio dedicado a impartir cursos sobre lenguajes de programación.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Cursos Informáticos</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml"/>
 		<link rel="stylesheet" type="text/css" href="css/flexslider.css">
 		<link rel="stylesheet" type="text/css" href="css/estilos-curso.css">
 	</head>
