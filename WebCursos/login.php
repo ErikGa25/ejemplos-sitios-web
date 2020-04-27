@@ -27,8 +27,8 @@
 					<input type="button" name="btnEntrar" value="Entrar">
 				</fieldset>
 				<br/>
-				<a href="index.php" class="texto1">Regresar</a>&nbsp;&nbsp;&nbsp;
-				<a href="registro.php" class="texto2">Registrarse</a>
+				<a href="index" class="texto1">Regresar</a>&nbsp;&nbsp;&nbsp;
+				<a href="registro" class="texto2">Registrarse</a>
 			</form>
 			<br/>
 		</section>

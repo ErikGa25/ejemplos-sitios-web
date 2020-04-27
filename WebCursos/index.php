@@ -45,21 +45,21 @@ Se uso FlexSlider 2.6.1  |  Sitio web: https://www.woothemes.com/flexslider/
 				<h1>CURSOS INFORMATICOS</h1>
 				<br/>
 				<article id="cursos-texto">
-					<a href="curso_java.php"><h3>Curso de Java</h3></a>
+					<a href="curso_java"><h3>Curso de Java</h3></a>
 					<p>
 						<!-- start slipsum code -->
 						Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
 						<!-- end slipsum code -->
 					</p>
 					<br/>
-					<a href="curso_php.php"><h3>Curso de PHP y MySQL</h3></a>
+					<a href="curso_php"><h3>Curso de PHP y MySQL</h3></a>
 					<p>
 						<!-- start slipsum code -->
 						Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
 						<!-- end slipsum code -->
 					</p>
 					<br/>
-					<a href="curso_c.php"><h3>Curso de C#</h3></a>
+					<a href="curso_c"><h3>Curso de C#</h3></a>
 					<p>
 						<!-- start slipsum code -->
 						Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.

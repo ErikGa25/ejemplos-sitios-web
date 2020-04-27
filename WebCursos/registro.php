@@ -34,8 +34,8 @@
 						<input type="submit" name="btnRegistro" id="registro" value="Registrarse">
 					</fieldset>
 					<br/>
-					<a href="index.php" class="texto1">Regresar</a>&nbsp;&nbsp;&nbsp;
-					<a href="login.php" class="texto2">Login</a>
+					<a href="index" class="texto1">Regresar</a>&nbsp;&nbsp;&nbsp;
+					<a href="login" class="texto2">Login</a>
 				</form>
 				<br/>
 			</section>
