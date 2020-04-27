@@ -7,8 +7,6 @@
 		<title>Cursos Informáticos</title>
 		<link rel="stylesheet" type="text/css" href="css/flexslider.css">
 		<link rel="stylesheet" type="text/css" href="css/estilos-login.css">
-		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-		<script type="text/javascript" src="js/validaciones-registro.js"></script>
 	</head>
 
 	<body>
@@ -40,5 +38,8 @@
 				<br/>
 			</section>
 		</section>
+
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/validaciones-registro.js"></script>
 	</body>
 </html>

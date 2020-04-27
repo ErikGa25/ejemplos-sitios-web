@@ -1,6 +1,6 @@
 <!--
 Autor: Erik García
-Se uso FlexSlider 2.6.1    Sitio web: https://www.woothemes.com/flexslider/
+Se uso FlexSlider 2.6.1  |  Sitio web: https://www.woothemes.com/flexslider/
 -->
 <!DOCTYPE html>
 <html lang="es">
@@ -11,15 +11,6 @@ Se uso FlexSlider 2.6.1    Sitio web: https://www.woothemes.com/flexslider/
 		<title>Cursos Informáticos</title>
 		<link rel="stylesheet" type="text/css" href="css/flexslider.css">
 		<link rel="stylesheet" type="text/css" href="css/estilos-curso.css">
-		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
-		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-		<script type="text/javascript">
-			$(window).load(function() {
-				$('.flexslider').flexslider({
-					animation: "slide"
-				});
-			});
-		</script>
 	</head>
 
 	<body>
@@ -86,5 +77,15 @@ Se uso FlexSlider 2.6.1    Sitio web: https://www.woothemes.com/flexslider/
 		<?php
 			include('footer.php');
 		?>
+
+		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('.flexslider').flexslider({
+					animation: "slide"
+				});
+			});
+		</script>
 	</body>
 </html>
