@@ -1,0 +1,16 @@
+section {
+    display: flex;
+    margin-top: 2em;
+    min-height: 70vh;
+
+    #principal {
+        padding: 0 2em;
+        text-align: justify;
+        width: 70%;
+    }
+
+    aside {
+        text-align: $center-align;
+        width: 20%;
+    }
+}

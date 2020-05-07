@@ -1,0 +1,8 @@
+$background-color: red;
+$center-align: center;
+$min-space: 0.5em;
+
+@mixin border-container {
+    border: 1px solid green;
+    padding: $min-space;
+}

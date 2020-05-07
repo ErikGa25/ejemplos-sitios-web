@@ -1,0 +1,21 @@
+header {
+    background-color: beige;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: $center-align;
+    text-align: $center-align;
+    
+    @include border-container;
+
+    #icon {
+        background-color: green;
+        border-radius: $min-space;
+        padding: $min-space 0;
+        width: 10%;
+    }
+
+    #title {
+        width: 70%;
+    }
+}
