@@ -1,16 +1,37 @@
 section {
     display: flex;
     margin-top: 2em;
-    min-height: 70vh;
+    min-height: 75vh;
 
     #principal {
         padding: 0 2em;
         text-align: justify;
         width: 70%;
+
+        #imagen {
+            margin: 2.5em 0;
+            text-align: $center-align;
+            
+            img {
+                -webkit-box-shadow: -2px 1px 5px 2px rgba(97,92,92,0.6);
+                -moz-box-shadow: -2px 1px 5px 2px rgba(97,92,92,0.6);
+                box-shadow: -2px 1px 5px 2px rgba(97,92,92,0.6);
+                width: 70%;
+            }
+        }
     }
 
     aside {
         text-align: $center-align;
         width: 20%;
+
+        #contenido-secundario {
+            background-color: #fff;
+            border-radius: $min-space;
+            height: 85vh;
+            margin: 1em auto;
+            padding: $min-space;
+            width: 60%;
+        }
     }
 }

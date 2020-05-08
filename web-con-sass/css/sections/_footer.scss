@@ -1,5 +1,13 @@
 footer {
-    left: 0px;
     bottom: 0px;
+    left: 0px;
+    text-align: $center-align;
     width: 100%;
+
+    div {
+        background-color: #01bfbf;
+        height: 70px;
+        @include border-container;
+        @include display($center-align);
+    }
 }

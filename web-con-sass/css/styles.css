@@ -1,22 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f49881;
+  font-size: 1em;
+}
+
 header {
-  background-color: beige;
+  background-color: #01bfbf;
+  height: 70px;
+  text-align: center;
+  border: 1px solid #747272;
+  border-left: 0;
+  border-right: 0;
+  padding: 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
-  border: 1px solid green;
-  padding: 0.5em;
 }
 
 header #icon {
-  background-color: green;
+  background-color: #eee;
   border-radius: 0.5em;
+  -webkit-box-shadow: 2px 0px 5px 1px #454343;
+  box-shadow: 2px 0px 5px 1px #454343;
   padding: 0.5em 0;
   width: 10%;
 }
@@ -30,7 +44,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   margin-top: 2em;
-  min-height: 70vh;
+  min-height: 75vh;
 }
 
 section #principal {
@@ -39,24 +53,65 @@ section #principal {
   width: 70%;
 }
 
+section #principal #imagen {
+  margin: 2.5em 0;
+  text-align: center;
+}
+
+section #principal #imagen img {
+  -webkit-box-shadow: -2px 1px 5px 2px rgba(97, 92, 92, 0.6);
+  box-shadow: -2px 1px 5px 2px rgba(97, 92, 92, 0.6);
+  width: 70%;
+}
+
 section aside {
   text-align: center;
   width: 20%;
 }
 
+section aside #contenido-secundario {
+  background-color: #fff;
+  border-radius: 0.5em;
+  height: 85vh;
+  margin: 1em auto;
+  padding: 0.5em;
+  width: 60%;
+}
+
 footer {
-  left: 0px;
   bottom: 0px;
+  left: 0px;
+  text-align: center;
   width: 100%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+footer div {
+  background-color: #01bfbf;
+  height: 70px;
+  border: 1px solid #747272;
+  border-left: 0;
+  border-right: 0;
+  padding: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body {
-  background-color: #a09292;
-  font-size: 1em;
+@media screen and (max-width: 1024px) {
+  section #principal {
+    width: 100%;
+  }
+  section #principal p {
+    font-size: 1.1em;
+  }
+  aside {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

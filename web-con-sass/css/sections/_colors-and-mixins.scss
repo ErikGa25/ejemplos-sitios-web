@@ -3,6 +3,14 @@ $center-align: center;
 $min-space: 0.5em;
 
 @mixin border-container {
-    border: 1px solid green;
+    border: 1px solid rgb(116, 114, 114);
+    border-left: 0;
+    border-right: 0;
     padding: $min-space;
+}
+
+@mixin display($align) {
+    display: flex;
+    justify-content: $align;
+    align-items: center;
 }

@@ -1,16 +1,17 @@
 header {
-    background-color: beige;
-    display: flex;
+    background-color: #01bfbf;
     height: 70px;
-    justify-content: space-around;
-    align-items: $center-align;
     text-align: $center-align;
     
     @include border-container;
+    @include display(space-around);
 
     #icon {
-        background-color: green;
+        background-color: #eee;
         border-radius: $min-space;
+        -webkit-box-shadow: 2px 0px 5px 1px rgba(69,67,67,1);
+        -moz-box-shadow: 2px 0px 5px 1px rgba(69,67,67,1);
+        box-shadow: 2px 0px 5px 1px rgba(69,67,67,1);
         padding: $min-space 0;
         width: 10%;
     }
