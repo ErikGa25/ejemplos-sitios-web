@@ -41,7 +41,7 @@
 			</section>
 		</section>
 
-		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="js/validaciones-registro.js"></script>
 	</body>
 </html>

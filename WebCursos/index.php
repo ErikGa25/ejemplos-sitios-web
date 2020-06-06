@@ -80,10 +80,10 @@ Se uso FlexSlider 2.6.1  |  Sitio web: https://www.woothemes.com/flexslider/
 			include('footer.php');
 		?>
 
-		<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 		<script type="text/javascript">
-			$(window).load(function() {
+			$(window).on('load', function() {
 				$('.flexslider').flexslider({
 					animation: "slide"
 				});
