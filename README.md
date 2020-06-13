@@ -1,5 +1,5 @@
 ### Instrucciones
 
-- Descarga el proyecto en la carpeta de tu servidor local.
+- Descarga el Proyecto en la carpeta de tu Servidor Local.
 
 En la carpeta de ***screenshot*** pueder ver imagenes de los ejemplos.
