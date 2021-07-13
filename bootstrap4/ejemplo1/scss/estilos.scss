@@ -1,0 +1,10 @@
+/* PATRON DE COLORES */
+$texto: red;
+$principal: blue;
+$secundario: orange;
+
+body {
+    background: $principal;
+    color: $texto;
+    border: 5px solid $secundario;
+}
