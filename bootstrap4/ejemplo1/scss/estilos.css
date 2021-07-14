@@ -1,7 +1,10 @@
 /* PATRON DE COLORES */
-body {
-  background: blue;
-  color: red;
-  border: 5px solid orange;
+/* Estilos de prueba */
+.container {
+  border: 1px solid red;
+}
+
+.row > * {
+  border: 1px solid green;
 }
 /*# sourceMappingURL=estilos.css.map */

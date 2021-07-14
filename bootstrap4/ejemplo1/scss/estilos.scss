@@ -3,8 +3,11 @@ $texto: red;
 $principal: blue;
 $secundario: orange;
 
-body {
-    background: $principal;
-    color: $texto;
-    border: 5px solid $secundario;
+/* Estilos de prueba */
+.container {
+    border: 1px solid red;
+}
+
+.row > * {
+    border: 1px solid green;
 }
