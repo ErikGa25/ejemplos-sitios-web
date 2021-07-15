@@ -1,0 +1,6 @@
+.servicios > *, .servicios2 > * {
+    border: 1px solid red;
+}
+.servicios {
+    display: flex;
+}
